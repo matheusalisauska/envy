@@ -16,7 +16,7 @@ function App() {
     <div className="flex flex-col gap-4 min-h-screen p-12 w-full">
       <div className='flex w-full items-center justify-between'>
         <h1 className='font-semibold text-3xl'>PROJECTS</h1>
-        <button className='bg-primary text-primary-foreground px-4 py-2 rounded-md w-fit'>New project</button>
+        <button className='bg-primary font-medium cursor-pointer hover:bg-[#82cc57] text-sm text-primary-foreground px-6 py-2 rounded-sm w-fit'>New project</button>
       </div>
       <ProjectsList />
     </div>
